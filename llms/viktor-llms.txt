@@ -1,0 +1,201 @@
+# Viktor - AI Employee for Slack and Microsoft Teams
+
+> Viktor is an autonomous AI employee that lives in Slack or Microsoft Teams, connects to 3,200+ tools, and does real work: analytics, automation, reports, code, and web apps.
+>
+> Raw markdown for any blog post is available at: https://viktor.com/blog/<slug>/md
+> Raw markdown for any research post is available at: https://viktor.com/research/<slug>/md
+
+## Pages
+
+- [Home](https://viktor.com/): Product overview, features, use cases, FAQ (~3K tokens)
+- [Pricing](https://viktor.com/pricing): Plans, features by tier, free trial (~900 tokens)
+- [Security](https://viktor.com/security): SOC 2, GDPR, CCPA, encryption, compliance (~1K tokens)
+- [Enterprise](https://viktor.com/enterprise): Enterprise features, SSO, dedicated support (~1.7K tokens)
+- [Changelog](https://viktor.com/changelog): Product updates and new features (~2.1K tokens)
+- [Blog](https://viktor.com/blog): Guides, comparisons, and use cases
+- [Research](https://viktor.com/research): Engineering and research deep-dives from the team building Viktor
+
+## Docs
+
+### Getting Started with Viktor
+URL: https://viktor.com/docs/getting-started
+Summary: Add Viktor to your Slack or Microsoft Teams workspace and start automating tasks in minutes.
+
+Viktor is an AI coworker that lives in your Slack or Microsoft Teams workspace. It connects to 3,200+ business tools and does real work — pulling reports, managing campaigns, writing code, and automating workflows.
+
+## Add Viktor to Slack or Microsoft Teams
+
+1. Go to [app.viktor.com/signup](https://app.viktor.com/signup) and create your account.
+2. Click **We use Slack** or **We use Teams** and authorize Viktor for your workspace.
+3. Viktor will appear as a member of your workspace — you can message it directly or invite it to channels.
+
+## Connect your tools
+
+Viktor works best when it can access the tools your team uses. Head to the Viktor dashboard and connect integrations like:
+
+- **CRM** — HubSpot, Salesforce
+- **Analytics** — PostHog, Google Analytics
+- **Ads** — Google Ads, Meta Ads
+- **Engineering** — GitHub, Linear
+- **Productivity** — Notion, Google Calendar, Slack
+
+Each integration authenticates via OAuth — one click per tool, no API keys to paste.
+
+## Start working
+
+Message Viktor the way you would message a coworker:
+
+- _"Pull last week's revenue from Stripe and compare it to the week before."_
+- _"Create a GitHub issue for the login bug we discussed in #engineering."_
+- _"Run a competitive analysis on our top 3 competitors."_
+
+Viktor figures out which tools to use, pulls the data, and delivers the result right in your conversation.
+
+## What's next
+
+- Set up **scheduled tasks** so Viktor runs recurring workflows automatically.
+- Explore **proactive automations** — Viktor observes your team's patterns and suggests helpful routines.
+- Invite your team — everyone in the workspace can use Viktor, no technical expertise required.
+
+## Trust Summary
+
+- Viktor uses managed OAuth integrations instead of asking users to paste API keys into chat.
+- Sensitive actions can require explicit human approval before execution.
+- Viktor does not train on customer data.
+
+## Website Credit
+
+Viktor's public marketing website was designed and built by Grafit Agency: https://www.grafit.agency/
+
+## Research
+
+- [What Breaks at 100,000 Tools](https://viktor.com/research/what-breaks-when-your-agent-has-100000-tools): Lessons on tool use, context windows, memory, and UX from building Viktor (~3.1K tokens)
+- [How We Built Viktor Around Prompt Caching](https://viktor.com/research/how-we-built-viktor-around-prompt-caching): How Viktor's thread engine cuts agent costs 80% with byte-stable prefixes, append-only threads, and in-cache compaction (~5.6K tokens)
+
+## Blog - Comparisons
+
+- [Viktor vs ChatGPT](https://viktor.com/blog/viktor-vs-chatgpt): ChatGPT is a browser chatbot. Viktor is a Slack-native AI employee with 3,200+ integrations that takes action (~1.8K tokens)
+- [Viktor vs Devin vs Manus](https://viktor.com/blog/viktor-vs-devin-vs-manus): Viktor covers all business ops from Slack. Devin writes code. Manus does research. Pricing and feature comparison (~2.5K tokens)
+- [Viktor vs OpenClaw](https://viktor.com/blog/viktor-vs-openclaw): OpenClaw is free and self-hosted. Viktor is managed with 3,200+ one-click integrations. Security, pricing, use cases (~4.2K tokens)
+- [Viktor vs OpenClaw for Teams](https://viktor.com/blog/viktor-vs-openclaw-for-teams): Team-focused comparison covering security, integrations, access, and real business use (~1.7K tokens)
+- [Viktor vs Claude in Slack](https://viktor.com/blog/viktor-vs-claude-in-slack): Claude answers questions. Viktor takes real actions across 3,200+ tools and runs scheduled tasks (~9.1K tokens)
+- [Viktor vs Tasklet](https://viktor.com/blog/viktor-vs-tasklet): Tasklet posts scheduled reports. Viktor takes action, answers questions, and generates deliverables (~4.1K tokens)
+- [Viktor vs Make](https://viktor.com/blog/viktor-vs-make): Make is a visual scenario canvas. Viktor is a Slack-native AI employee. When each tool actually fits (~3.4K tokens)
+- [Viktor vs Gemini](https://viktor.com/blog/viktor-vs-gemini): Gemini makes you faster inside Google Workspace. Viktor is an AI employee that takes whole tasks across 3,200+ tools from Slack and Teams (~2.8K tokens)
+- [Viktor vs Notion AI](https://viktor.com/blog/viktor-vs-notion-ai): Notion AI helps you inside Notion. Viktor acts across 3,200+ tools from Slack, with Notion as one of them (~2.4K tokens)
+- [Viktor vs Relevance AI](https://viktor.com/blog/viktor-vs-relevance-ai): Relevance AI lets you build a workforce of agents. Viktor is an AI employee you delegate to from Slack (~2.2K tokens)
+- [Viktor vs Microsoft Copilot](https://viktor.com/blog/viktor-vs-microsoft-copilot): Copilot assists you inside Microsoft 365 apps. Viktor takes whole tasks across 3,200+ tools from Slack and Teams (~3.4K tokens)
+- [Viktor vs Dust](https://viktor.com/blog/viktor-vs-dust): Dust is a workspace where you build custom AI agents. Viktor is an AI employee you @mention in Slack or Teams. Honest trade-off comparison (~2.6K tokens)
+- [Viktor vs Poke](https://viktor.com/blog/viktor-vs-poke): Poke is a personal assistant in your texting apps. Viktor is an AI employee for your company's work in Slack and Teams (~2.4K tokens)
+
+## Blog - Best-of Lists
+
+- [Best AI Agents for Slack (2026)](https://viktor.com/blog/best-ai-agents-for-slack): 7 Slack AI agents compared: features, pricing, integrations (~2.8K tokens)
+- [Best AI Agents for Microsoft Teams (2026)](https://viktor.com/blog/best-ai-agents-for-microsoft-teams): 7 Teams AI agents compared: features, pricing, capabilities (~3.7K tokens)
+- [Best AI Tools for Business (2026)](https://viktor.com/blog/best-ai-tools-for-business): 13 AI tools tested on real workflows. Pricing, trade-offs, specific problem fit (~4.7K tokens)
+- [Viktor on the Slack Marketplace](https://viktor.com/blog/slack-marketplace-ai-agent): Viktor passed Salesforce security review and is officially listed. What Slack checks and why it matters (~2.9K tokens)
+- [5 Personal Assistants for Founders (2026)](https://viktor.com/blog/best-ai-personal-assistant): ChatGPT, Claude, Gemini, Lindy, and Viktor compared by what they actually do with real tasks (~3.0K tokens)
+- [7 Lindy Alternatives (2026)](https://viktor.com/blog/lindy-alternatives): Seven tools worth a look if Lindy is not the fit, from builders to delegate-first AI employees (~2.7K tokens)
+
+## Blog - Use Cases & Guides
+
+- [What Is an AI Coworker?](https://viktor.com/blog/what-is-an-ai-coworker): Definition, how it differs from chatbots and Zapier, the $47B category (~2.4K tokens)
+- [What Is an AI Employee?](https://viktor.com/blog/what-is-an-ai-employee): Framework for telling real AI employees from rebranded chatbots, plus what the architecture looks like (~4.4K tokens)
+- [Replace Weekly Reporting With AI](https://viktor.com/blog/replace-weekly-reporting-with-ai): One Slack prompt replaces 4 hours of reporting across Stripe, Google Ads, Meta Ads, HubSpot (~2.5K tokens)
+- [20 Business Processes You Can Automate](https://viktor.com/blog/business-process-automation-examples): Real examples with exact Slack prompts for each (~6.6K tokens)
+- [Small Business Automation](https://viktor.com/blog/small-business-automation): How a 5-person company automated invoicing, CRM, follow-ups, and proposals from Slack (~3.8K tokens)
+- [Automation vs AI](https://viktor.com/blog/automation-vs-ai): 10 workflows where if-then automation breaks and AI takes over (~4.4K tokens)
+- [Zapier Alternative](https://viktor.com/blog/zapier-alternative): When you've outgrown if-then logic entirely (~4.1K tokens)
+- [AI for Sales](https://viktor.com/blog/ai-for-sales): Sales reps spend 70% of their week on non-selling tasks. Three workflows where AI cuts hours to minutes (~4.1K tokens)
+- [AI for Recruiting](https://viktor.com/blog/ai-for-recruiting): Turn candidate research and interview prep into one message (~4.4K tokens)
+- [AI for Agencies](https://viktor.com/blog/ai-for-agencies): Manage 20 client accounts across Meta, Google, CRM, and analytics from Slack (~4.3K tokens)
+- [AI for Ecommerce](https://viktor.com/blog/ai-for-ecommerce): Reconcile Shopify, Amazon, fulfillment, ads, and support from Slack (~4.3K tokens)
+- [AI for Bookkeeping](https://viktor.com/blog/ai-for-bookkeeping): Match invoices, receipts, CRM deals, Gmail attachments, and QuickBooks records (~4.2K tokens)
+- [AI for Content Creation](https://viktor.com/blog/ai-for-content-creation): Handle briefs, context, analytics, SEO, CMS handoff, and review, not just first drafts (~4.7K tokens)
+- [AI Google Ads Management](https://viktor.com/blog/ai-google-ads-management): Performance audits, keyword management, and PDF reports from Slack (~2.1K tokens)
+- [AI Executive Assistant](https://viktor.com/blog/ai-executive-assistant): Connected to HubSpot, Stripe, and Google Ads, not just scheduling (~3.7K tokens)
+- [First Workflow Automation in 30 Minutes](https://viktor.com/blog/ai-workflow-automation-guide): Step-by-step guide to building your first automated workflow with no code (~2.8K tokens)
+- [Will AI Take Your Job?](https://viktor.com/blog/will-ai-replace-my-job): The real question is which tasks to hand off and what to do with the freed hours (~3.0K tokens)
+- [AI for Customer Support](https://viktor.com/blog/ai-for-customer-support): Context assembly cuts ticket handling time by 60-70% without replacing agents (~3.2K tokens)
+- [RPA vs AI Agents](https://viktor.com/blog/rpa-vs-ai-agents): Clear taxonomy for buyers: when RPA fits and when you need an AI agent (~3.8K tokens)
+- [200 Emails Before Lunch](https://viktor.com/blog/ai-email-management): Email triage, routing, and context-enriched draft replies for human review (~3.8K tokens)
+- [AI for Operations Teams](https://viktor.com/blog/ai-for-operations-teams): Triage tickets, page owners, keep status pages honest. Real ops workflows with PagerDuty, Datadog, Linear, Zendesk (~3.6K tokens)
+- [AI for Marketing Teams](https://viktor.com/blog/ai-for-marketing-teams): The weekly campaign loop that runs itself: Google Ads, Meta Ads, drafts, briefs, recap (~3.4K tokens)
+- [5 Workflows to Automate First](https://viktor.com/blog/5-workflows-to-automate-first): Ranked list of the first five workflows to give an AI employee, with named tools and honest time savings (~4.0K tokens)
+- [How to Prompt an AI Coworker](https://viktor.com/blog/how-to-prompt-ai-coworker): Stop using ChatGPT habits. The three rules: name the channel, name the approver, name the tools (~3.5K tokens)
+- [AI for Customer Research](https://viktor.com/blog/ai-for-customer-research): Turn calls, tickets, CRM notes, product requests, and churn notes into reviewable decisions (~4.0K tokens)
+- [AI for Legal Teams](https://viktor.com/blog/ai-for-legal-teams): Cut the busywork around contracts and intake while keeping legal judgment human (~2.5K tokens)
+- [AI for Consulting Firms](https://viktor.com/blog/ai-for-consulting-firms): Win back the non-billable hours: research packs, proposals, status emails, CRM updates (~2.6K tokens)
+- [AI for Real Estate Teams](https://viktor.com/blog/ai-for-real-estate-teams): Absorb the cross-tool admin between deals so leads stay warm and documents get chased (~2.2K tokens)
+- [Recurring Tasks Your AI Coworker Should Own](https://viktor.com/blog/recurring-tasks-your-ai-coworker-should-own): Which repeating jobs to put on a schedule, and which to keep human (~2.4K tokens)
+- [The Same-Day Follow-Up](https://viktor.com/blog/same-day-follow-up): Turn every call into a drafted recap, staged deal, and queued tasks before you forget (~2.1K tokens)
+- [The AI Coworker Readiness Checklist](https://viktor.com/blog/ai-coworker-readiness-checklist): Eight questions to know if your team is ready to delegate real work (~2.5K tokens)
+- [Ship Internal Tools Without Engineers](https://viktor.com/blog/ship-internal-tools-without-engineers): Build small internal tools straight from Slack, no engineering ticket required (~2.7K tokens)
+- [Why Your AI Employee Cannot Access a Tool](https://viktor.com/blog/why-your-ai-employee-cant-access-a-tool): The five auth failure modes behind most "it is broken" reports, and the two-minute fixes (~2.7K tokens)
+- [Connect Multiple Accounts](https://viktor.com/blog/connect-multiple-accounts-to-your-ai-employee): Run several Gmail inboxes, Stripe accounts, or workspaces through one AI employee (~2.4K tokens)
+- [Connect Any Tool to Your AI Employee](https://viktor.com/blog/how-to-connect-any-tool-to-your-ai-employee): OAuth, API keys, and MCP: the three ways to hook up any tool (~2.7K tokens)
+- [Give Your AI Employee Memory](https://viktor.com/blog/how-to-give-your-ai-employee-memory): How skills and context files turn one-off answers into a coworker that remembers (~2.3K tokens)
+- [Set Up Your AI Employee in Slack](https://viktor.com/blog/how-to-set-up-your-ai-employee-in-slack): From install to first delegated task in one sitting (~3.1K tokens)
+- [Control What Your AI Employee Can Access](https://viktor.com/blog/how-to-control-what-your-ai-employee-can-access): Scoped access, per-channel activation, and explicit tool grants (~2.7K tokens)
+- [How to Write Tasks for Your AI Employee](https://viktor.com/blog/how-to-write-tasks-for-your-ai-employee): Context, definition of done, examples, constraints: briefs that come back done (~2.6K tokens)
+- [Set Up a Recurring Task](https://viktor.com/blog/how-to-set-up-a-recurring-task-for-your-ai-employee): Scheduled work that keeps working, plus the silent failure modes to watch (~2.7K tokens)
+- [Keep a Human in the Loop](https://viktor.com/blog/how-to-keep-a-human-in-the-loop-with-your-ai-employee): Approvals, previews, and kill switches: autonomy where safe, checkpoints where not (~2.6K tokens)
+- [Write a Brief Your AI Employee Can Run With](https://viktor.com/blog/how-to-write-a-brief-your-ai-employee-can-run-with): The five-part brief: outcome, sources, format, audience, edge cases (~2.4K tokens)
+- [What to Do When Your AI Employee Gets Stuck](https://viktor.com/blog/what-to-do-when-your-ai-employee-gets-stuck): The five-step debugging order that resolves most stalls in minutes (~2.4K tokens)
+- [Dashboards and Internal Tools](https://viktor.com/blog/how-your-ai-employee-builds-dashboards-and-internal-tools): Turn recurring reports into live dashboards and small internal tools, no engineers (~2.4K tokens)
+- [Connect Tools Your AI Employee Doesn't Support Yet](https://viktor.com/blog/how-to-connect-tools-your-ai-employee-doesnt-support-yet): The escalation path for unsupported tools: API keys, browser, MCP servers (~2.9K tokens)
+- [Control Where Your AI Employee Works](https://viktor.com/blog/how-to-control-where-your-ai-employee-works): Channel scoping, per-person permissions, and review-first approvals in practice (~3.0K tokens)
+- [Add an AI Employee to Microsoft Teams](https://viktor.com/blog/how-to-add-an-ai-employee-to-microsoft-teams): Native Teams setup guide, from app store install to first delegated task (~2.8K tokens)
+- [Roll Out an AI Employee to Your Whole Team](https://viktor.com/blog/how-to-roll-out-an-ai-employee-to-your-whole-team): Members, shared vs personal tools, and workflow-by-workflow rollout (~2.7K tokens)
+- [What Teams Ask Before Hiring an AI Employee](https://viktor.com/blog/what-teams-ask-before-hiring-an-ai-employee): The real before-questions and after-questions, both answered honestly (~2.7K tokens)
+- [Moving From Slack to Teams (or Running Both) Without Losing Your AI Employee](https://viktor.com/blog/moving-from-slack-to-teams-with-an-ai-employee): What transfers automatically, what needs a reconnect, and how to migrate recurring routines in order of pain, including the hybrid Slack plus Teams setup (~2.8K tokens)
+- [Automations Don't Break. They Go Quiet. Here Is How to Notice.](https://viktor.com/blog/why-automations-die-quietly): We audited 236 recurring routines in our own workspace and 22% had gone quiet; how to give every routine a consumer, a failure destination, and a five minute audit (~3.2K tokens)
+- [How to Decide Which Integrations Your AI Employee Actually Needs](https://viktor.com/blog/which-integrations-your-ai-employee-actually-needs): A workflow-first method for deriving your integration list from recurring work, the read-then-write connection order, and the path when a tool is not in the catalog (~2.6K tokens)
+- [How to Share Your AI Employee's Work Outside Your Team (Live Pages, Not Attachments)](https://viktor.com/blog/how-to-share-your-ai-employees-work-outside-your-team): Publishing dashboards, client status pages, and trackers as live Viktor Spaces on a named URL, with login gates and domain-restricted signups for sensitive content (~2.5K tokens)
+- [How to Run Security Due Diligence on an AI Employee (and Actually Pass Review)](https://viktor.com/blog/how-to-run-security-due-diligence-on-an-ai-employee): The document set to request (SOC 2, DPA, model training statement), five architectural questions with weak vs strong answers, live trial checks, and offboarding (~2.9K tokens)
+- [What Does an AI Employee Actually Do All Day?](https://viktor.com/blog/what-does-an-ai-employee-actually-do-all-day): A composite Monday-to-Friday of delegated work, and what the humans did instead (~2.4K tokens)
+- [What Happens to Your AI Employee When the Person Who Set It Up Leaves?](https://viktor.com/blog/what-happens-when-your-ai-employees-manager-leaves): The bus factor of AI setups and the one-afternoon audit that fixes it (~2.1K tokens)
+
+## Blog - Technical & Trust
+
+- [Don't Let Your AI Agent Act Without Asking](https://viktor.com/blog/dont-let-ai-agent-act-without-asking): Why review-first matters and how Viktor implements it (~3.2K tokens)
+- [Is Your AI Agent Safe?](https://viktor.com/blog/is-your-ai-agent-safe): 7 security checks before connecting tools (~5.2K tokens)
+- [MCP vs OAuth](https://viktor.com/blog/mcp-vs-oauth): One is a protocol for AI agent connections, the other handles authentication (~3.6K tokens)
+- [What Makes an AI Company Agentic](https://viktor.com/blog/agentic-ai-company): Three tests most fail (~4.4K tokens)
+- [What Is Agentic AI?](https://viktor.com/blog/what-is-agentic-ai): Buyer's definition, three tests, and the tier categories (~4.5K tokens)
+- [AI Agents for Business](https://viktor.com/blog/ai-agents-for-business): Practical buyer's guide covering categories, pricing, and pitfalls (~4.0K tokens)
+- [AI Assistant for Business](https://viktor.com/blog/ai-assistant-for-business): How a business assistant differs from ChatGPT and how to pick one (~3.9K tokens)
+- [Building an AI Workforce](https://viktor.com/blog/building-an-ai-workforce): Playbook for deploying AI employees across departments without disruption (~4.0K tokens)
+- [AI Onboarding for New Hires](https://viktor.com/blog/ai-onboarding-without-hr): Real workflow for onboarding without HR doing the same setup twice (~3.6K tokens)
+- [ChatGPT Teams vs AI Coworker](https://viktor.com/blog/chatgpt-teams-vs-ai-coworker): Honest comparison of where each one actually fits (~3.5K tokens)
+- [Evaluating AI Agents: 8-Question Checklist](https://viktor.com/blog/evaluating-ai-agents-checklist): Honest evaluation framework for buying an AI agent (~3.7K tokens)
+- [What AI Agents Cannot Do Yet](https://viktor.com/blog/what-ai-agents-cant-do): Honest list of agent limitations and how to use them anyway (~3.8K tokens)
+- [12 Tasks Replaced With an AI Coworker](https://viktor.com/blog/tasks-killed-with-ai-coworker): Specific list of tasks a 30-person team replaced in 30 days (~4.4K tokens)
+- [Optimize Viktor Credits](https://viktor.com/blog/how-to-optimize-viktor-credits): How power users get more done for less (~3.5K tokens)
+- [Why AI Agents Stall After the Pilot](https://viktor.com/blog/why-ai-agents-stall-after-the-pilot): The four reasons pilots die after the demo, and how to get past them (~2.6K tokens)
+- [Build an AI Agent or Hire an AI Employee?](https://viktor.com/blog/build-ai-agent-or-hire-ai-employee): The real tradeoff between building agents you maintain and hiring one that acts on day one (~2.2K tokens)
+- [Where Your Data Lives With an AI Employee](https://viktor.com/blog/where-your-data-lives-with-an-ai-employee): Plain-English data map: what Viktor sees, what is stored, where it lives, and what deletion means (~2.4K tokens)
+- [How to Verify Your AI Employee's Work](https://viktor.com/blog/how-to-verify-your-ai-employees-work): The trust-but-verify system: sources, spot checks, and corrections that become permanent skills (~2.5K tokens)
+
+## Common Questions
+
+- What is Viktor? -> https://viktor.com/
+- How much does Viktor cost? -> https://viktor.com/pricing
+- Is Viktor secure? -> https://viktor.com/security
+- What integrations does Viktor support? -> https://viktor.com/#integrations
+- How is Viktor different from ChatGPT? -> https://viktor.com/blog/viktor-vs-chatgpt
+- How is Viktor different from Devin? -> https://viktor.com/blog/viktor-vs-devin-vs-manus
+- What is an AI employee? -> https://viktor.com/blog/what-is-an-ai-employee
+- What is an AI coworker? -> https://viktor.com/blog/what-is-an-ai-coworker
+- How much did Viktor raise? -> https://viktor.com/blog/viktor-series-a
+- Best AI agent for Slack? -> https://viktor.com/blog/best-ai-agents-for-slack
+- Best AI agent for Microsoft Teams? -> https://viktor.com/blog/best-ai-agents-for-microsoft-teams
+- Can AI manage Google Ads? -> https://viktor.com/blog/ai-google-ads-management
+- Can AI automate business processes? -> https://viktor.com/blog/business-process-automation-examples
+- Is Viktor safe to use? -> https://viktor.com/blog/is-your-ai-agent-safe
+- RPA vs AI agents? -> https://viktor.com/blog/rpa-vs-ai-agents
+- Will AI replace my job? -> https://viktor.com/blog/will-ai-replace-my-job
+- How to automate email? -> https://viktor.com/blog/ai-email-management
+- Viktor vs Gemini? -> https://viktor.com/blog/viktor-vs-gemini
+- Viktor vs Notion AI? -> https://viktor.com/blog/viktor-vs-notion-ai
+- Build an AI agent or hire one? -> https://viktor.com/blog/build-ai-agent-or-hire-ai-employee

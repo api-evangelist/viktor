@@ -1,0 +1,77 @@
+generated: '2026-07-21'
+method: searched
+source: https://viktor.com/changelog
+scheme: dated
+description: >-
+  Viktor publishes a public, dated product changelog of features, improvements,
+  and fixes shipped to the AI-employee product (Slack / Microsoft Teams). There
+  is no formal API version number; entries below are the most recent window.
+current_version: null
+entries:
+  - date: '2026-06-10'
+    title: Claude Fable 5 & Supabase integration
+    additions:
+      - Claude Fable 5 promoted to general availability in the model picker (2x Opus pricing, Vertex fallback).
+      - One-click Supabase OAuth integration with 20+ native tools (table CRUD, Management API, migrations, edge functions, logs, TypeScript type generation).
+    breaking: false
+  - date: '2026-06-03'
+    title: Workspace personalization settings
+    additions:
+      - Personality presets and custom instructions injected into Viktor's system prompt workspace-wide.
+    breaking: false
+  - date: '2026-05-30'
+    title: Claude Opus 4.8
+    additions:
+      - Claude Opus 4.8 added to the model picker with adaptive thinking.
+    breaking: false
+  - date: '2026-05-23'
+    title: Read-only GitHub integration
+    additions:
+      - Separate read-only GitHub connection for security-conscious teams.
+    breaking: false
+  - date: '2026-05-21'
+    title: Redesigned Spaces page
+    additions:
+      - Spaces shown as thumbnail cards with direct app-launch and grid/list toggle.
+    breaking: false
+  - date: '2026-05-19'
+    title: Media generation chart on the Usage page
+    additions:
+      - Usage Overview rolls image/audio/video generation into one Media segment with drill-down.
+    breaking: false
+  - date: '2026-04-29'
+    title: GPT-5.5, bigger Claude outputs & refreshed Usage page
+    additions:
+      - GPT-5.5 added to the model picker; Kimi K2.6 and Gemini Flash 3 retired from defaults.
+      - Raised output caps for Claude Opus 4.6/4.7 and Sonnet 4 family.
+      - Signup shows exactly which skill/bundle is being installed; Usage page gains Scheduled Tasks tab and per-user stats.
+    breaking: false
+  - date: '2026-04-28'
+    title: Google Ads negative keywords & smarter Slack replies
+    additions:
+      - Tools to list/add/remove Google Ads negative keywords with batch and match-type support.
+      - Slack DM replies stay in thread; quick status acks mid-task.
+    breaking: false
+  - date: '2026-04-27'
+    title: Pause & resume scheduled tasks
+    additions:
+      - Pause/resume controls for scheduled tasks, also exposed to agents, the SDK, and flow APIs.
+    breaking: false
+  - date: '2026-04-23'
+    title: Per-model reasoning controls & GPT-Image-2
+    additions:
+      - Per-model reasoning-effort selection (Minimal/Low/Medium/High).
+      - gpt-image-2 set as default image model.
+    breaking: false
+  - date: '2026-04-22'
+    title: Reconnect integrations, smarter approvals & Kimi K2.6
+    additions:
+      - One-click reconnect for broken OAuth integrations preserving row-scoped settings.
+      - Always-approve-this-tool preference saved to MCP settings; Atlassian pre-connect guide; Kimi K2.6 (in testing).
+    breaking: false
+  - date: '2026-04-21'
+    title: Claude Opus 4.7 & instant integrations page
+    additions:
+      - Claude Opus 4.7 (1M context, adaptive thinking) available to everyone.
+      - Integrations list renders immediately then refreshes in background.
+    breaking: false
