@@ -1,0 +1,43 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://viktor.com/pricing
+sources:
+- https://viktor.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Team
+published: true
+note: Credit-based pricing; page also lists example credit ranges (Quick Tasks 100-300 credits, Complex
+  Workflows 500-1,500 credits, Full Projects 2,000-5,000 credits). Title mentions plans from $50/month
+  but listed Team plan is $100/month.
+plan_count: 3
+currency: USD
+plans:
+- name: Free
+  price_text: $0 / month
+  price: 0
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: up to $100 credits for free; free credits never expire
+- name: Team
+  price_text: $100 / month
+  price: 100
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 40,000 credits monthly, shared across workspace, roll over
+  overage: Top up on demand; auto-topups with monthly spend cap
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Per-user spend cap, volume credit pricing with discounts, invoicing
